@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Restaurant" representedClassName=".Restaurant" syncable="YES">
+        <attribute name="isImportant" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="location" attributeType="String" syncable="YES"/>
+        <attribute name="memo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ThingsType" representedClassName=".ThingsType" syncable="YES">
+        <attribute name="detailThing" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isDone" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isImport" attributeType="Boolean" syncable="YES"/>
+        <attribute name="thing" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Restaurant" positionX="-54" positionY="18" width="128" height="150"/>
+        <element name="ThingsType" positionX="-63" positionY="-18" width="128" height="105"/>
+    </elements>
+</model>
